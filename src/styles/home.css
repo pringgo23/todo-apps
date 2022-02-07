@@ -1,0 +1,23 @@
+.margin-x-10vw {
+  margin: 0 10vw;
+}
+
+.todo-header {
+  padding: 3vh 3vw;
+  background-color: #2e891dbd;
+  width: 100%;
+  margin: 0;
+}
+
+.todo-item {
+  padding: 2.5vh 2.5vw;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.dropdown-todo {
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  width: 2vw;
+}

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.div-center {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-pill {
+  height: 5vh;
+  width: 7vw;
+  border-radius: 20px;
+}
