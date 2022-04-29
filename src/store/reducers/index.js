@@ -1,5 +1,18 @@
-import { combineReducers } from "redux";
+import { createSlice } from "@reduxjs/toolkit";
 
-const reducers = combineReducers({});
+export const todoReducer = createSlice({
+  name: "todo",
+  initialState: {
+    todos: [],
+  },
 
-export default reducers;
+  reducers: {
+    saveTodo: (state, action) => {
+      state.todos = [...action.payload];
+    },
+  },
+});
+
+export const { saveTodo } = todoReducer.actions;
+
+export default todoReducer.reducer;
